@@ -1,5 +1,7 @@
 package StandardLib;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class UserInput {
@@ -17,5 +19,18 @@ public class UserInput {
 
         // Close Scanner After finishing
         sc.close();
+    }
+
+    public static void userInputViaBuffer() throws Exception {
+        BufferedReader bfn = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.print("Enter String: ");
+        String str = bfn.readLine();
+
+        System.out.print("Enter Integer: ");
+        int it = Integer.parseInt(bfn.readLine());
+
+        System.out.println("Entered String: " + str);
+        System.out.println("Entered integer: " + it);
     }
 }

@@ -7,7 +7,13 @@ public class App {
 
         // ! Prompting user using Scanner as a wrapper for easier access and using the
         // ! Standard Output and Input Streams
-        // UserInput.userInput();
+        // UserInput.userInput(); // ? Users Scanner class wrapper around Input Stream
+        // ? Scanner does a lot of post-processing and there for is slower
+        // UserInput.userInputViaBuffer(); // ? Uses a Buffered Reader with Input Stream
+        // ? Buffered Reader is preferred for large input streams
+
+        // ! Prompting user using the methods of the Scanner like nextBoolean()...
+        // ScannerApp.scanner();
 
         // ! Use Console to ask for a password where the keys the user inputs aren't
         // ! logged
