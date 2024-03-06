@@ -5,6 +5,13 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "YaraBS.App",
+            "projectName": "simple-java_62489a2f"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "FileIO.App",
             "projectName": "simple-java_9a3bb161"
         },
