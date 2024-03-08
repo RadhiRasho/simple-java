@@ -33,7 +33,7 @@ public class Utilities {
     }
 
     public static String getPath() throws Exception {
-        return "./src/FileIO/";
+        return "./src/FileIO/text-files/";
     }
 
     public static RandomQuote getQuote() throws Exception {
