@@ -6,7 +6,7 @@ public class App {
 
     public void method1(int x) {
         App t = new App();
-        App.x = 22;
+        t.x = 22;
         y = 44;
 
         System.out.println("App.x: " + App.x);

@@ -1,4 +1,4 @@
-package YaraBS;
+package YBS;
 
 public class Shape {
     public Shape() {
